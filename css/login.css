@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body {
+    background-color:#a9d2f8;
+}
+
+
+
+.container-fluid {
+    
+    background-color: #ffffff;
+}
+.container{
+    padding:50px; 
+  }
+#title{
+    font-family: 'Arial', cursive;
+}
+
+.btn-dark{
+    font-family: 'PT Sans', sans-serif;
+    align-items: center;
+}
