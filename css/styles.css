@@ -1,43 +1,44 @@
-
-
+@import 'login.css';
 
 *{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  background-color: #026bfe; 
 }
 
 p{ 
-    color: #000000;
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
+  color: #000000;
+  font-size: medium;
+}
 
- .carousel-control-prev-icon{ 
-   background-color: black;
-    
-     }
+.carousel-control-prev-icon{ 
+  background-color: black;
+}
 
-     .carousel-control-next-icon{ 
-        background-color: black;
-         
-          }
-           .btn-primary{ 
-          margin-bottom: -50px;
-             
-              }
-              .precio2{ 
-                margin-bottom: 400px;
-                margin-left: 30px;
-                                  
-                    }
+.carousel-control-next-icon{ 
+  background-color: black;
+}
 
-                 h4{ 
-                    margin-left: 30px;
-                        color: blue;   
-                      
-                        
+h4{ 
+  color: blue;
+}
 
-                
-                        }
-                       
+.login-carrito{
+  color: white;
+}
+
+.card{
+  align-items: center;
+  justify-content: space-between;
+}
+.card-text{
+  font-size: .9rem;
+}
+.card > img{
+  height: 20rem;
+}
+                 

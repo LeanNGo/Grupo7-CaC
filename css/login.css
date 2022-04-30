@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-body {
-    background-color:#a9d2f8;
-}
 
-
-
-.container-fluid {
-    
+.containerRegistro{
+    height: 100vh;
     background-color: #ffffff;
 }
-.container{
-    padding:50px; 
+.containerRegistro:first-child{
+    padding: 2rem; 
   }
 #title{
-    font-family: 'Arial', cursive;
+    font-family: 'Arial';
+  
 }
 
 .btn-dark{
     font-family: 'PT Sans', sans-serif;
-    align-items: center;
 }
