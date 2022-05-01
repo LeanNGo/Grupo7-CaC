@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
 body {
     background-color:#a9d2f8;
 }
@@ -10,10 +12,12 @@ body {
     background-color: #ffffff;
 }
 .container{
+   margin: -20px;
     padding:50px; 
   }
 #title{
-    font-family: 'Arial', cursive;
+    font-family: 'PT Sans', sans-serif;
+   
 }
 
 .btn-dark{
