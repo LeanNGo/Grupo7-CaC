@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
+/* ****************** HEADER ****************** */
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .containerLogo {
+    width: 10%;
+  }
+  .containerLogo > img {
+    width: 100%;
+  }
+  header li {
+    color: black;
+  }
+  .login-carrito {
+    color: black;
+  }
+  
+/* ****************** MAIN ****************** */
 .containerRegistro{
     height: 100vh;
     background-color: #ffffff;

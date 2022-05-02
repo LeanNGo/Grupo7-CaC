@@ -16,15 +16,60 @@
 </head>
 <body>
 <!--loguin y registro de cuenta-->
-    <header>
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" width="250" height="150" alt="Logo">
-            <h2 class="text-center" id="title">Registra tu Tarjeta</h2>
-            <hr>
-            </a>
-        </nav>
-    </header>
+<header class="px-4 sticky-top">
+    
+    <div class="row d-flex justify-content-around align-items-center">
+        <!--LOGO ESCRITORIO-->
+      <a class="navbar-brand d-none d-sm-block containerLogo mx-0" href="index.html">
+          <img src="images/logoNuevo.png" alt="logo">
+      </a>
+        <!--LOGO CELULAR-->
+      <a class="navbar-brand d-sm-none me-2 col-2 containerLogo mx-0" href="index.html">
+          <img src="images/logoNuevo.png" alt="logo">
+      </a>
+        <!--BUSCADOR DE ARTICULOS A-->                  
+      <div class="col-6 px-0">
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text bg-light" id="inputGroup-sizing-sm"><i class="bi bi-search"></i></span>
+          </div>
+          <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+        </div>  
+      </div>
+
+      <div class="align-middle ">
+          <ul class="navbar-nav text-light">
+              <li class="nav-item"><i class="bi bi-telephone"></i> 0810-999-6288</li>
+              <li class="nav-item"><i class="bi bi-whatsapp"></i> 11 5984 5785</li>
+          </ul>
+      </div>
+      
+      <div class="text-dark">
+          <a href="login.html" class="login-carrito"><i class="bi bi-person"></i></i></a>
+          <a href="./carrito.html" class="login-carrito">
+            <span class="top-0 start-100 translate-middle badge rounded-pill bg-danger">3 <i class="bi bi-cart"></i></span>
+          </a>
+      </div> 
+      
+      <nav class="navbar navbar-light">
+        <button class="navbar-toggler w-100" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav> 
+        
+      <div class="collapse col-12 text-center" id="navbarToggleExternalContent" >
+        <div class="p-4 ">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-dark" href="articulos.html">ALIMENTOS</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="articulos.html">ACCESORIOS</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="articulos.html">ESTÉTICA E HIGIENE</a></li>               
+          </ul>                  
+        </div>
+      </div>
+    </div>  
+    
+    <!-- ************************* FIN DE NAVBAR *************************-->  
+  </header>
     <main>
         <div class="container-fluid containerRegistro">
             <div class="container">
@@ -66,5 +111,15 @@
             
           </div>
     </footer>
+
+    <!-- JS PROPIO -->
+    <script src="js/perfil.js"></script>
+
+
+    <!-- LINKS DE JS PARA BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    
 </body>
 </html>
