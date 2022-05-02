@@ -1,45 +1,54 @@
-@import 'login.css';
+@import "login.css";
 
-
-*{
-  list-style: none;
-  padding: 0;
+* {
+  padding: 0; 
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header{
-  background-color: #026bfe; 
-}
 
-p{ 
+/* ****************** HEADER ****************** */
+header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.containerLogo {
+  width: 10%;
+}
+.containerLogo > img {
+  width: 100%;
+}
+header li {
+  color: black;
+}
+/* ****************** COMIENZA MAIN ****************** */
+p {
   color: #000000;
   font-size: medium;
 }
 
-.carousel-control-prev-icon{ 
+.carousel-control-prev-icon {
   background-color: black;
 }
 
-.carousel-control-next-icon{ 
+.carousel-control-next-icon {
   background-color: black;
 }
 
-h4{ 
+h4 {
   color: blue;
 }
 
-.login-carrito{
-  color: white;
+.login-carrito {
+  color: black;
 }
 
-.card{
+.card {
   align-items: center;
   justify-content: space-between;
 }
-.card-text{
-  font-size: .9rem;
+.card-text {
+  font-size: 0.9rem;
 }
-.card > img{
+.card > img {
   height: 20rem;
 }
-                 

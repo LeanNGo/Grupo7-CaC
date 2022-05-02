@@ -69,5 +69,5 @@ const darColor = (boton)=>{
 contPersonales();
 btnPersonales.addEventListener('click', () =>{contPersonales(),darColor(btnPersonales)});
 btnCorreo.addEventListener('click', () =>{contCorreo(),darColor(btnCorreo)});
-btnUsuario.addEventListener('click', () =>{contUsuario(),darColor(btnCorreo)});
+btnUsuario.addEventListener('click', () =>{contUsuario(),darColor(btnUsuario)});
 btnPassword.addEventListener('click', () =>{contPassword(),darColor(btnPassword)});
