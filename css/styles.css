@@ -1,7 +1,7 @@
 @import "login.css";
 
 * {
-  padding: 0; 
+  padding: 0;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -42,6 +42,7 @@ h4 {
   color: black;
 }
 
+/* ****************** CARDS ****************** */
 .card {
   align-items: center;
   justify-content: space-between;
@@ -51,4 +52,35 @@ h4 {
 }
 .card > img {
   height: 20rem;
+}
+
+.cardArticulos {
+  border: 2px solid #dd448a;
+  box-shadow: 0px 0px 5px #dd448a;
+}
+.cardArticulos .card-body {
+  height: 10rem;
+}
+.cardArticulos > div > button {
+  border: 1px solid #dd448a;
+  width: 70%;
+  border-radius: 10px;
+  background-color: white;
+  color: #2185a6;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.cardArticulos > div > button:hover {
+  background-color: #dd448a;
+  color: white;
+  border: 1px solid #2185a6;
+}
+.cardArticulos h5 {
+  color: #2185a6;
+  font-weight: bold;
+}
+.cardArticulos .textPrecio {
+  color: green;
+  font-size: 1rem;
+  font-weight: 600;
 }
