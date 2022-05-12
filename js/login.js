@@ -66,5 +66,5 @@ formulario.addEventListener("submit", (e) => {
 
     console.log("Formulario enviado con éxito" );
     pintarMensajeExito();
-    alert("Bienvenido a su sesion de usuario"+ logueado);
+    alert("Bienvenido a su sesion de usuario" + logueado);
 });
