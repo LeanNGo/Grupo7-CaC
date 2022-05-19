@@ -47,7 +47,7 @@
           <div class="text-dark">
               <a href="login.html" class="login-carrito"><i class="bi bi-person"></i></i></a>
               <a href="./carrito.html" class="login-carrito">
-                <span class="top-0 start-100 translate-middle badge rounded-pill bg-danger">3 <i class="bi bi-cart"></i></span>
+                <span class="top-0 start-100 translate-middle badge rounded-pill bg-danger" id="contador"> <i class="bi bi-cart"></i></span>
               </a>
           </div> 
           
@@ -71,58 +71,33 @@
         <!-- ************************* FIN DE NAVBAR *************************-->  
       </header>
 
-    <main>
-        <section class="container flex text-center">
-            <div class="columna">
-                <h3>Carrito de compras (3)</h3>
-                <hr>
-                <div class="flex compras">
-                    <img class="img" src="./images/alimento.png" alt="compra1">
-                    <p>Alimento Pro Plan Adulto x 1k</p>
-                    <div class="unidades flex compras"><a href="#"> <p>-</p></a>
-                        <p class="compras">1</p>
-                        <a class="compras"href="#"><p>+</p></a>
-                    </div>
-                        <p>$1.300</p>
-                </div>
-                
-                <hr>
-                <div class="flex compras">
-                    <img class="img" src="./images/comedero.png" alt="compra2">
-                    <p>Bebedero/Comedero p/ perro</p>
-                    <div class="unidades flex compras"><a href="#"> <p>-</p></a>
-                        <p class="compras">2</p>
-                        <a class="compras"href="#"><p>+</p></a>
-                    </div>
-                        <p>$1.100</p>
-                </div>
-                <hr>
-                <div class="flex compras">
-                    <img class="img" src="./images/correa.png" alt="compra3">
-                    <p>Correa acero inox. p/ perro</p>
-                    <div class="unidades flex compras"><a href="#"> <p>-</p></a>
-                        <p class="compras">1</p>
-                        <a class="compras"href="#"><p>+</p></a>
-                    </div>
-                        <p>$950</p>
-                </div>
-                <hr>
-                <div class="flex envioCapital">
-                    <p>Envío en capital &nbsp;&nbsp;&nbsp; $450</p>
-                </div>
-                <br>
-                <div class="flex envioCapital" id="totalEnvio">
-                    <p> <b>Total con envío &nbsp;&nbsp;&nbsp; $3.800</p></b> 
-                </div>
-                <hr>
-                <div class="flex botonCompra">
-                    <a href="./index.html" class="btn-precio" id="comprar">Seguir comprando</a>
-                    <a href="./deb-cred.html" class="btn-precio" id="continuar">Comprar</a>
-                </div>
-                
+      <main>
+        <div class="columna">
+              <h3>Carrito de compras</h3>
+              <hr>
+
+              <div id="carrito">
+
+              </div>
+              
+              <hr>
+
+              <div class="flex envioCapital">
+                <p>Envío en capital $450</p>
             </div>
-        </section>
-    </main>
+            <br>
+            <div class="flex envioCapital" id="totalEnvio">
+                <p><b>Total con envío $</b><span id="total"></span></p>
+            </div>
+            <hr>
+              <div class="flex botonCompra">
+                  <a href="./articulos.html" class="btn-precio" id="comprar">Seguir comprando</a>
+                  <a href="./deb-cred.html" class="btn-precio" id="continuar">Comprar</a>
+              </div>
+              
+          </div>
+      </section>
+  </main>
     
     
     <footer>
@@ -136,6 +111,7 @@
     
     
     <!-- LINKS DE JS PARA BOOTSTRAP -->
+    <script src="./js/carrito.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
