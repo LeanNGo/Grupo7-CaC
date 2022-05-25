@@ -17,11 +17,16 @@ header {
   .login-carrito {
     color: black;
   }
-  
+ 
+  .bi-telephone{
+    font-weight: 400;
+  }
 /* ****************** MAIN ****************** */
+
+
 .containerRegistro{
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #2185a6;
 }
 .containerRegistro:first-child{
     padding: 2rem; 
@@ -30,7 +35,16 @@ header {
     font-family: 'Arial';
   
 }
-
+.container-fluid{
+  
+  background-color: #2185a6;
+}
 .btn-dark{
     font-family: 'PT Sans', sans-serif;
+}
+.text-uppercase{
+  font-family: 'PT Sans', sans-serif;
+  color: aliceblue;
+  text-decoration:overline;
+
 }
