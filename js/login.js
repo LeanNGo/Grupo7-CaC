@@ -68,3 +68,48 @@ formulario.addEventListener("submit", (e) => {
     pintarMensajeExito();
     alert("Bienvenido a su sesion de usuario"+ logueado);
 });
+
+
+
+document.getElementById("btn").addEventListener("click", submitContent);
+
+function submitContent () {
+    let username1 = document.getElementById("username1").value;
+    if (username1 == '') {
+        alert("Escribir Nombre");
+    }  
+    else{  
+        let email = document.getElementById("email").value;
+        if (email == '') {
+            alert("Escribir Email");
+        }
+        else {
+            let username = document.getElementById("username").value;
+            if (username == '') {
+                alert("Escribir Usuario");
+            }
+            else {
+                let password1 = document.getElementById("password").value;
+                let password2 = document.getElementById("password2").value;
+                if (password1 != password2){
+                    alert("Las contrasenas no coinciden");
+                }
+                if (password1 == '' || password2 == '') {
+                    alert("Escribir Contraseña");
+                }
+                else {
+                    let inputAddress = document.getElementById("inputAddress").value;
+                    if (inputAddress == '') {
+                        alert("Escribir Dirección");
+                    }
+                    else {
+                        let inputZip = document.getElementById("inputZip").value;
+                        if (inputZip == '') {
+                            alert("Escribir Codigo Postal");
+                        }
+                    }
+                }
+            }
+        }   
+    }
+}
