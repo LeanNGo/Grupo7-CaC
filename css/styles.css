@@ -23,7 +23,8 @@ header li {
 /* ****************** COMIENZA MAIN ****************** */
 p {
   color: #000000;
-  font-size: medium;
+  font-size:large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .carousel-control-prev-icon {
@@ -34,10 +35,14 @@ p {
   background-color: black;
 }
 
-h4 {
-  color: blue;
-}
 
+
+h5 {
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+text-decoration: underline;
+
+}
 .login-carrito {
   color: black;
 }

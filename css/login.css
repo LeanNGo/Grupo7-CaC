@@ -17,12 +17,14 @@ header {
   .login-carrito {
     color: black;
   }
- 
-  .bi-telephone{
+
+  .li.navitem{
     font-weight: 400;
   }
+  .bi-telephone {
+    font-weight: 300;
+  }
 /* ****************** MAIN ****************** */
-
 
 .containerRegistro{
     height: 100vh;
@@ -38,6 +40,7 @@ header {
 .container-fluid{
   
   background-color: #2185a6;
+  padding-bottom: 2rem;
 }
 .btn-dark{
     font-family: 'PT Sans', sans-serif;
