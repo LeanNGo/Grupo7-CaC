@@ -3,6 +3,12 @@ let carrito = [];
 if (localStorage.getItem("carrito")) {
   carrito = JSON.parse(localStorage.getItem("carrito"));
 }
+else{
+    let carritoVacio = document.getElementById("carrito");
+    carritoVacio.innerHTML = `<h2 class="text-danger">Carrito Vacío</h2>`;
+    let buttonDisable = document.getElementById("continuar")
+    buttonDisable.classList.add("disableButton")
+    }
 const generarCards = (productos) => {    
     let cards = document.getElementById("carrito");
     let importeTotal= document.getElementById("total");
@@ -17,7 +23,7 @@ const generarCards = (productos) => {
         let card = `
             <img class="img" src="${producto.img}" alt="Card image cap">
                 <p>${producto.titulo}</p>                
-                <div class="unidades flex compras"><a href="#"> <p id="cart${producto.id}">-</p></a>
+                <div class="unidades flex compras"><a href="#"><p id="cart${producto.id}">-</p></a>
                 <p class="compras">1</p>
                 <a class="compras"href="#"><p>+</p></a>
                 </div>
@@ -49,5 +55,11 @@ const generarCards = (productos) => {
     importeTotal.appendChild(span);    
 }
 
-
 generarCards(carrito);
+
+let borarCarrito = document.getElementById("borrar");
+borarCarrito.addEventListener("click", (evento)=>{
+    localStorage.removeItem("carrito");
+    localStorage.removeItem("totalCarrito");
+    window.location.reload()
+})
