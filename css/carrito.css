@@ -85,6 +85,9 @@ main{
 #comprar:hover{
     background: rgb(126, 126, 126);
 }
+.disableButton{
+    visibility: hidden;
+}
 .img{
     width: 100px;
 }
